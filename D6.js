@@ -208,8 +208,7 @@ const movies = [
   Scrivi una funzione per trovare il film più vecchio nell'array fornito.
 */
 
-const listaElelementi = movies.splice(" ")
-
+const listaElelementi = movies.splice(" ");
 
 /* ESERCIZIO 11
   Scrivi una funzione per ottenere il numero di film contenuti nell'array fornito.
