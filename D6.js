@@ -13,12 +13,14 @@ const concatStrings = function (str1, str2) {
   console.log(result)
 }
 
-concatStrings('hello', 'Epicode')  // HEODE
+concatStrings('hello', 'Epicode')  // HEODE    
+
+
 
 /* ESERCIZIO 2 (for)
   Scrivi una funzione che torni un array di 10 elementi; ognuno di essi deve essere un valore random compreso tra 0 e 100 (incluso).
 */
-
+let numbers = 2
 /* ESERCIZIO 3 (filter)
   Scrivi una funzione per ricavare solamente i valori PARI da un array composto da soli valori numerici
 */
