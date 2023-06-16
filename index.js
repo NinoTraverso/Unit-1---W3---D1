@@ -3,7 +3,9 @@
   prima e gli ultimi 3 della seconda. Converti la stringa risultante in maiuscolo e mostrala con un console.log().
 */
 
-/* RISPOSTA 1
+//  RISPOSTA 1
+
+/*
 
 const string = ["alfa", "beto"];
 
@@ -22,18 +24,20 @@ console.log(stringPart);
   Scrivi una funzione che torni un array di 10 elementi; ognuno di essi deve essere un valore random compreso tra 0 e 100 (incluso).
 */
 
-/* RISPOSTA 2
-const tenRandomNumbersFunction = () => {
-  const randomNumbers = [];
+// RISPOSTA 2
+
+/*
+function pushNumbers() {
+  let tenRandomNumbers = [];
+
   for (let i = 0; i < 10; i++) {
-    const randomNumberGenerator = Math.floor(Math.random() * 100); 
-    randomNumbers.push(randomNumberGenerator);
-  return randomNumbers;
+    let randomNumbers = Math.floor(Math.random() * 100);
+    tenRandomNumbers[i] = randomNumbers;
+  }
+  return tenRandomNumbers;
 }
-
-const arrayOfTenNumbers = tenRandomNumbersFunction();
-console.log(arrayOfTenNumbers);
-
+let updatedTenRandomNumebrs = pushNumbers();
+console.log(updatedTenRandomNumebrs);
 */
 
 /* ESERCIZIO 3
@@ -41,6 +45,7 @@ console.log(arrayOfTenNumbers);
 */
 
 /*
+
 const numbers = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 
 const evenNumbers = numbers.filter(number => number % 2 === 0);
@@ -55,15 +60,27 @@ MY reference to solve the problem: https://developer.mozilla.org/en-US/docs/Web/
   Scrivi una funzione per sommare i numeri contenuti in un array
 */
 
-/* RISPOSTA 4
+// RISPOSTA 4
 
+/*
+let numberList = [2, 3, 5, 6, 11, 12];
+
+let sumOfNumbers = 0;
+
+numberList.forEach((num) => {
+  sumOfNumbers += num;
+});
+
+console.log(sumOfNumbers);
 */
 
 /* ESERCIZIO 5
   Scrivi una funzione per sommare i numeri contenuti in un array (usare REDUCE)
 */
 
-/* RISPOSTA 5 
+// RISPOSTA 5
+
+/*
 
 const numbers = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 
@@ -79,11 +96,36 @@ My reference: https://www.freecodecamp.org/news/reduce-f47a7da511a9/
   Scrivi una funzione che, dato un array di soli numeri e un numero n come parametri, ritorni un secondo array con tutti i valori del precedente incrementati di n
 */
 
+/*
+
+let numberList = [2, 3, 5, 7, (n = 4)];
+
+let sumOfNumbers = 0;
+
+numberList.forEach((num, n) => {
+  sumOfNumbers += num + n;
+});
+
+console.log(sumOfNumbers);
+*/
+
 /* ESERCIZIO 8
   Scrivi una funzione che, dato un array di stringhe, ritorni un nuovo array contenente le lunghezze delle rispettive stringhe dell'array di partenza
   es.: ["EPICODE", "is", "great"] => [7, 2, 5]
 */
 
+// RISPOSTA 8
+
+/*
+let phrase = ["Take", "the", "cannoli"];
+
+phrase.forEach((phrase.every))
+
+let firstWord = phrase[0]
+let length = firstWord.length
+
+console.log(length);
+*/
 /* ESERCIZIO 9
   Scrivi una funzione per creare un array contenente tutti i valori DISPARI da 1 a 99.
 */
