@@ -109,23 +109,25 @@ numberList.forEach((num, n) => {
 console.log(sumOfNumbers);
 */
 
-/* ESERCIZIO 8
+/* ESERCIZIO 7
   Scrivi una funzione che, dato un array di stringhe, ritorni un nuovo array contenente le lunghezze delle rispettive stringhe dell'array di partenza
   es.: ["EPICODE", "is", "great"] => [7, 2, 5]
 */
 
-// RISPOSTA 8
+// RISPOSTA 7
 
 /*
-let phrase = ["Take", "the", "cannoli"];
+const array = function (array) {
+  return array.map((phrase) => phrase.length);
+};
 
-phrase.forEach((phrase.every))
-
-let firstWord = phrase[0]
-let length = firstWord.length
-
-console.log(length);
+console.log("Each index has a length of:", array(["Take", "the", "cannoli."]));
 */
+
+/* ESERCIZIO 8 
+
+(forEach o for)
+Scrivi una funzione per creare un array contenente tutti i valori DISPARI da 1 a 99
 /* ESERCIZIO 9
   Scrivi una funzione per creare un array contenente tutti i valori DISPARI da 1 a 99.
 */
